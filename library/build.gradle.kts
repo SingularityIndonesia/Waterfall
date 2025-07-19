@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "io.github.stefanusayudha"
-version = "1.0.0-beta1"
+version = "1.0.0"
 
 kotlin {
     jvm()
@@ -68,7 +68,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates(group.toString(), "library", version.toString())
+    coordinates(group.toString(), "waterfall", version.toString())
 
     pom {
         name = "Waterfall"
