@@ -8,6 +8,9 @@ Waterfall Layout Compose is a [Kotlin Multiplatform](https://kotlinlang.org/docs
 
 The library supports multiple platforms including Android, iOS, and JVM, making it perfect for cross-platform applications built with Compose Multiplatform.
 
+![Preview](preview.gif)
+
+
 ## Features
 
 - **Multiplatform Support**: Works on Android, iOS, and JVM
