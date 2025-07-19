@@ -73,7 +73,7 @@ mavenPublishing {
     pom {
         name = "Waterfall"
         description = "Waterfall Layout Compose"
-        inceptionYear = "2024"
+        inceptionYear = "2025"
         url = "https://github.com/SingularityIndonesia/Waterfall/"
         licenses {
             license {
