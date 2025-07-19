@@ -8,7 +8,7 @@ plugins {
     alias(libs.plugins.vanniktech.mavenPublish)
 }
 
-group = "io.github.kotlin"
+group = "io.github.stefanusayudha"
 version = "1.0.0"
 
 kotlin {
@@ -59,28 +59,28 @@ mavenPublishing {
     coordinates(group.toString(), "library", version.toString())
 
     pom {
-        name = "My library"
-        description = "A library."
+        name = "Waterfall"
+        description = "Waterfall Layout Compose"
         inceptionYear = "2024"
-        url = "https://github.com/kotlin/multiplatform-library-template/"
+        url = "https://github.com/SingularityIndonesia/Waterfall/"
         licenses {
             license {
-                name = "XXX"
-                url = "YYY"
-                distribution = "ZZZ"
+                name = "The Apache License, Version 2.0"
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                distribution = "repo"
             }
         }
         developers {
             developer {
-                id = "XXX"
-                name = "YYY"
-                url = "ZZZ"
+                id = "stefanusayudha"
+                name = "Stefanus Ayudha"
+                url = "https://github.com/stefanusayudha"
             }
         }
         scm {
-            url = "XXX"
-            connection = "YYY"
-            developerConnection = "ZZZ"
+            url = "https://github.com/SingularityIndonesia/Waterfall"
+            connection = "scm:git:https://github.com/SingularityIndonesia/Waterfall.git"
+            developerConnection = "scm:git:ssh://git@github.com/SingularityIndonesia/Waterfall.git"
         }
     }
 }
