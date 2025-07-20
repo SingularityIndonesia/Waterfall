@@ -43,6 +43,7 @@ dependencies {
 ```
 
 ### Maven
+Artifact: [Maven Central](https://central.sonatype.com/artifact/io.github.stefanusayudha/waterfall)
 
 Add the dependency to your `pom.xml`:
 
