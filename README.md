@@ -30,7 +30,7 @@ Add the dependency to your module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("io.github.stefanusayudha:waterfall:1.0.0")
+    implementation("io.github.stefanusayudha:waterfall:1.1.0")
 }
 ```
 
@@ -40,7 +40,7 @@ Add the dependency to your module's `build.gradle`:
 
 ```groovy
 dependencies {
-    implementation 'io.github.stefanusayudha:waterfall:1.0.0'
+    implementation 'io.github.stefanusayudha:waterfall:1.1.0'
 }
 ```
 
@@ -53,7 +53,7 @@ Add the dependency to your `pom.xml`:
 <dependency>
     <groupId>io.github.stefanusayudha</groupId>
     <artifactId>waterfall</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
