@@ -4,7 +4,7 @@ A Kotlin Multiplatform Compose library that provides a waterfall (staggered grid
 
 ## What is it?
 
-Waterfall Layout Compose is a [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) library that provides a `Waterfall` composable function for creating staggered grid layouts (also known as waterfall layouts or Pinterest-style layouts) in Compose applications. This layout automatically detect content height and arranges items in columns.
+Waterfall Layout Compose is a [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) library that provides a `Waterfall` composable function for creating staggered grid layouts (also known as waterfall layouts or Pinterest-style layouts) in Compose applications. Very simple to use; This layout automatically detect content height and arranges items in columns.
 
 The library supports multiple platforms including Android, iOS, and JVM, making it perfect for cross-platform applications built with Compose Multiplatform.
 
