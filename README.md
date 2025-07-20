@@ -126,6 +126,7 @@ fun <T> Waterfall(
 | iOS      | ✅ Supported   |
 | JVM      | ✅ Supported   |
 | Linux    | 🚧 Planned     |
+| WasmJS   | 🚧 Planned     |
 
 ## Contributing
 
