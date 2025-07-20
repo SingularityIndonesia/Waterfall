@@ -8,6 +8,8 @@ Waterfall Layout Compose is a [Kotlin Multiplatform](https://kotlinlang.org/docs
 
 The library supports multiple platforms including Android, iOS, and JVM, making it perfect for cross-platform applications built with Compose Multiplatform.
 
+`Copyright 2025 Stefanus Ayudha and Contributors`
+
 ## Preview: (wait a sec it is loading)
 ![Preview](preview.gif)
 
@@ -132,7 +134,3 @@ fun <T> Waterfall(
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-
-
-`Copyright 2025 Stefanus Ayudha and Contributors`
