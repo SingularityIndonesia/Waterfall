@@ -110,6 +110,17 @@ fun <T> Waterfall(
 )
 ```
 
+#### Parameters
+
+- **modifier**: `Modifier` - Modifier to be applied to the waterfall layout
+- **items**: `List<T>` - List of items to display in the waterfall layout
+- **scrollState**: `ScrollState` - State object for controlling and observing scroll behavior
+- **contentPadding**: `PaddingValues` - Padding around the entire content
+- **verticalGap**: `Dp` - Vertical spacing between items in the same column
+- **horizontalGap**: `Dp` - Horizontal spacing between columns
+- **rowCount**: `Int` - Number of columns in the waterfall layout
+- **content**: `@Composable (T) -> Unit` - Composable function to render each item
+
 ### Since 1.1.0
 New Api is added for more customize-ability.
 
@@ -126,17 +137,6 @@ fun <T> Waterfall(
     content: @Composable (T) -> Unit = {}
 )
 ```
-
-#### Parameters
-
-- **modifier**: `Modifier` - Modifier to be applied to the waterfall layout
-- **items**: `List<T>` - List of items to display in the waterfall layout
-- **scrollState**: `ScrollState` - State object for controlling and observing scroll behavior
-- **contentPadding**: `PaddingValues` - Padding around the entire content
-- **verticalGap**: `Dp` - Vertical spacing between items in the same column
-- **horizontalGap**: `Dp` - Horizontal spacing between columns
-- **rowCount**: `Int` - Number of columns in the waterfall layout
-- **content**: `@Composable (T) -> Unit` - Composable function to render each item
 
 ## Platform Support
 
