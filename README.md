@@ -110,6 +110,23 @@ fun <T> Waterfall(
 )
 ```
 
+### Since 1.1.0
+New Api is added for more customize-ability.
+
+```kotlin
+@Composable
+fun <T> Waterfall(
+    modifier: Modifier = Modifier,
+    items: List<T> = emptyList(),
+    scrollState: ScrollState = rememberScrollState(),
+    contentPadding: (panelWidth: Dp, rowCount: Int) -> PaddingValues = { _, _ -> PaddingValues(0.dp) },
+    verticalGap: (panelWidth: Dp, rowCount: Int) -> Dp = { _, _ -> 0.dp },
+    horizontalGap: (panelWidth: Dp, rowCount: Int) -> Dp = { _, _ -> 0.dp },
+    minWidth: (panelWidth: Dp) -> Dp = { 200.dp },
+    content: @Composable (T) -> Unit = {}
+)
+```
+
 #### Parameters
 
 - **modifier**: `Modifier` - Modifier to be applied to the waterfall layout
